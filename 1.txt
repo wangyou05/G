@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-02-21 20:44:39
+# 创建时间：2024-03-12 22:14:58
 # 使用模版：V2RaySE 默认模版
-# 节点数量：42
+# 节点数量：45
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -86,8 +86,8 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"13","type":"vless","server":"time.cloudflare.com","port":8080,"uuid":"3d8d1643-5b46-45b3-84af-74fd91994930","tls":false,"servername":"workor-rough-rain-058.el6ub29l.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"workor-rough-rain-058.el6ub29l.workers.dev"}}}
-  - {"name":"12","type":"vless","server":"japan.com","port":8080,"uuid":"3b2a1645-0037-4adb-b336-c00bfaeb4ac3","tls":false,"servername":"worker-morning-frost-9100.5uxbq11j.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-morning-frost-9100.5uxbq11j.workers.dev"}}}
+  - {"name":"13","type":"vless","server":"time.cloudflare.com","port":2082,"uuid":"3d8d1643-5b46-45b3-84af-74fd91994930","tls":false,"servername":"workor-rough-rain-058.el6ub29l.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"workor-rough-rain-058.el6ub29l.workers.dev"}}}
+  - {"name":"12","type":"vless","server":"www.udacity.com","port":8080,"uuid":"3b2a1645-0037-4adb-b336-c00bfaeb4ac3","tls":false,"servername":"worker-morning-frost-9100.5uxbq11j.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-morning-frost-9100.5uxbq11j.workers.dev"}}}
   - {"name":"11","type":"vless","server":"www.ipget.net","port":8080,"uuid":"5c25b5e1-5ef2-460d-b5e1-849cd85d3e49","tls":false,"servername":"worker-wispy-art-4a4f.zz4qb6-6.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-wispy-art-4a4f.zz4qb6-6.workers.dev"}}}
   - {"name":"10","type":"vless","server":"www.glassdoor.com","port":8080,"uuid":"4538816c-d08c-4fef-92cc-f7de9231c724","tls":false,"servername":"worker-small-star-5886.s32r5x96.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-small-star-5886.s32r5x96.workers.dev"}}}
   - {"name":"09","type":"vless","server":"www.csgo.com","port":8080,"uuid":"36f77539-adfe-405a-be05-4d4a268ee1f4","tls":false,"servername":"worker-orange-field-d5c6.uw-uef2k.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-orange-field-d5c6.uw-uef2k.workers.dev"}}}
@@ -95,39 +95,42 @@ proxies:
   - {"name":"07","type":"vless","server":"www.visa.com.hk","port":8080,"uuid":"b2304602-f642-46c9-bdb3-a0e7b9ecbbf9","tls":false,"servername":"worker-fancy-sunset-9b78.k56bjd90.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-fancy-sunset-9b78.k56bjd90.workers.dev"}}}
   - {"name":"06","type":"vless","server":"www.visa.com.tw","port":8080,"uuid":"49281036-2b34-478d-b68a-4a1cea222cae","tls":false,"servername":"worker-shrill-term-9c1e.ssrhqtck.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-shrill-term-9c1e.ssrhqtck.workers.dev"}}}
   - {"name":"05","type":"vless","server":"www.boba88slot.com","port":8080,"uuid":"cfd923a8-2af0-454b-9f1f-80ad07d48550","tls":false,"servername":"worker-odd-sun-0498.na1-v33q.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-odd-sun-0498.na1-v33q.workers.dev"}}}
-  - {"name":"04","type":"vless","server":"gur.gov.ua","port":2082,"uuid":"6225efd1-7675-48ff-b19e-7b2a59ee6418","tls":false,"servername":"worker-misty-firefly-7ad5.8o0wqvsk.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-misty-firefly-7ad5.8o0wqvsk.workers.dev"}}}
+  - {"name":"04","type":"vless","server":"www.boba88slot.com","port":8080,"uuid":"6225efd1-7675-48ff-b19e-7b2a59ee6418","tls":false,"servername":"worker-misty-firefly-7ad5.8o0wqvsk.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-misty-firefly-7ad5.8o0wqvsk.workers.dev"}}}
   - {"name":"03","type":"vless","server":"www.csgo.com","port":8080,"uuid":"bdf81467-f3c0-4abc-ab4f-0b2873d33fdd","tls":false,"servername":"worker-muddy-pine-128e.44tuy5qq.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-muddy-pine-128e.44tuy5qq.workers.dev"}}}
   - {"name":"02","type":"vless","server":"time.cloudflare.com","port":8080,"uuid":"1a5fec2b-cc10-4026-889b-3c172df94eea","tls":false,"servername":"worker-morning-field-dd88.44tuy5qq-b7a.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-morning-field-dd88.44tuy5qq-b7a.workers.dev"}}}
   - {"name":"01","type":"vless","server":"www.boba88slot.com","port":8080,"uuid":"af1cba0e-6de5-4973-8eb0-c73732c7b9b8","tls":false,"servername":"worker-withered-river-e41b.1bbt8sxd.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-withered-river-e41b.1bbt8sxd.workers.dev"}}}
-  - {"name":"14","type":"vless","server":"www.iakeys.com","port":8080,"uuid":"24c3d2f1-bcb9-45e9-afac-851205ee3b8c","tls":false,"servername":"worker-late-unit-2ed5.z0qw85lv.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-late-unit-2ed5.z0qw85lv.workers.dev"}}}
-  - {"name":"15","type":"vless","server":"www.zsu.gov.ua","port":8080,"uuid":"3f1f5bcd-95bb-4505-8fc2-e2ac5de6f2d3","tls":false,"servername":"worker-cold-silence-c82d.03pi79vg.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-cold-silence-c82d.03pi79vg.workers.dev"}}}
-  - {"name":"16","type":"vless","server":"www.zsu.gov.ua","port":8080,"uuid":"a41cce7c-911d-4f92-a70b-8502f220d15a","tls":false,"servername":"worker-delicate-thunder-00e1.f1l4ug6u.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-delicate-thunder-00e1.f1l4ug6u.workers.dev"}}}
+  - {"name":"14","type":"vless","server":"www.udacity.com","port":8080,"uuid":"24c3d2f1-bcb9-45e9-afac-851205ee3b8c","tls":false,"servername":"worker-late-unit-2ed5.z0qw85lv.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-late-unit-2ed5.z0qw85lv.workers.dev"}}}
+  - {"name":"15","type":"vless","server":"www.boba88slot.com","port":8080,"uuid":"3f1f5bcd-95bb-4505-8fc2-e2ac5de6f2d3","tls":false,"servername":"worker-cold-silence-c82d.03pi79vg.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-cold-silence-c82d.03pi79vg.workers.dev"}}}
+  - {"name":"16","type":"vless","server":"www.udacity.com","port":8080,"uuid":"a41cce7c-911d-4f92-a70b-8502f220d15a","tls":false,"servername":"worker-delicate-thunder-00e1.f1l4ug6u.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-delicate-thunder-00e1.f1l4ug6u.workers.dev"}}}
   - {"name":"17","type":"vless","server":"www.udacity.com","port":8080,"uuid":"87f019e2-0c85-4722-98fd-9c182044a1e7","tls":false,"servername":"worker-late-wildflower-ae68.esnvpuz6.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-late-wildflower-ae68.esnvpuz6.workers.dev"}}}
   - {"name":"18","type":"vless","server":"www.gov.se","port":8080,"uuid":"7a6cec47-a0c3-4337-a064-270d34608d0d","tls":false,"servername":"worker-cool-snowflake-92d3.gf6pyyw2.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-cool-snowflake-92d3.gf6pyyw2.workers.dev"}}}
-  - {"name":"19","type":"vless","server":"www.ipchicken.com","port":8080,"uuid":"de3d3f5b-a65e-4e09-8d0b-2289a760a2c1","tls":false,"servername":"worker-summer-sun-758e.3246c-za.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-summer-sun-758e.3246c-za.workers.dev"}}}
+  - {"name":"19","type":"vless","server":"www.visakorea.com","port":8080,"uuid":"de3d3f5b-a65e-4e09-8d0b-2289a760a2c1","tls":false,"servername":"worker-summer-sun-758e.3246c-za.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-summer-sun-758e.3246c-za.workers.dev"}}}
   - {"name":"20","type":"vless","server":"www.glassdoor.com","port":8080,"uuid":"e995d9f9-b795-45a0-b728-cbb74f060107","tls":false,"servername":"worker-lively-breeze-354c.6at2czo2.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-lively-breeze-354c.6at2czo2.workers.dev"}}}
   - {"name":"21","type":"vless","server":"www.boba88slot.com","port":8080,"uuid":"8ca36d3d-d95b-4eb5-ac61-0e7c8a9b5e58","tls":false,"servername":"worker-wandering-surf-d29e.up4cn6hy.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-wandering-surf-d29e.up4cn6hy.workers.dev"}}}
   - {"name":"22","type":"vless","server":"time.cloudflare.com","port":8080,"uuid":"10a85e16-32e4-495e-b0d0-6d2ce4460474","tls":false,"servername":"worker-cold-snow-9e55.lgbhuyqi.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-cold-snow-9e55.lgbhuyqi.workers.dev"}}}
   - {"name":"23","type":"vless","server":"www.baipiao.eu.org","port":2082,"uuid":"72d38223-9c7f-42ab-979b-b58a29695558","tls":false,"servername":"worker-broad-pond-ab0d.9ck95uv3.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-broad-pond-ab0d.9ck95uv3.workers.dev"}}}
-  - {"name":"24","type":"vless","server":"www.who.int","port":2082,"uuid":"d17ee108-7d43-4f3c-9986-1e4958dcb6f4","tls":false,"servername":"worker-holy-king-6de6.t42qopet.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-holy-king-6de6.t42qopet.workers.dev"}}}
+  - {"name":"24","type":"vless","server":"www.udemy.com","port":8080,"uuid":"d17ee108-7d43-4f3c-9986-1e4958dcb6f4","tls":false,"servername":"worker-holy-king-6de6.t42qopet.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-holy-king-6de6.t42qopet.workers.dev"}}}
   - {"name":"25","type":"vless","server":"www.ipget.net","port":2082,"uuid":"462313af-49b2-419f-bc5a-ca3f27cfdd05","tls":false,"servername":"worker-fragrant-haze-5b90.hc5f3ddp.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-fragrant-haze-5b90.hc5f3ddp.workers.dev"}}}
   - {"name":"26","type":"vless","server":"icook.hk","port":8080,"uuid":"014829b8-ca93-4969-ba9e-56c07d490312","tls":false,"servername":"worker-twilight-mud-9d1c.8h4rixz9.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-twilight-mud-9d1c.8h4rixz9.workers.dev"}}}
   - {"name":"27","type":"vless","server":"www.gov.se","port":8080,"uuid":"5182fa51-eae5-4d67-9891-d217de200d77","tls":false,"servername":"worker-steep-bush-8b10.d12zuqkl.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-steep-bush-8b10.d12zuqkl.workers.dev"}}}
   - {"name":"28","type":"vless","server":"www.udemy.com","port":8080,"uuid":"124b2b2f-08fa-40a8-ab44-f0601a804169","tls":false,"servername":"worker-super-base-5c6b.xysqmwy1.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-super-base-5c6b.xysqmwy1.workers.dev"}}}
   - {"name":"29","type":"vless","server":"www.iakeys.com","port":8080,"uuid":"96ecca61-0f57-4b82-8ff6-0855788f56a7","tls":false,"servername":"worker-muddy-rain-5a2a.vvf7uhve.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-muddy-rain-5a2a.vvf7uhve.workers.dev"}}}
-  - {"name":"30","type":"vless","server":"www.okcupid.com","port":8080,"uuid":"00c91e58-8595-4ba4-a8b5-55280fddf7a7","tls":false,"servername":"worker-black-brook-a503.2qa2n8ud.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-black-brook-a503.2qa2n8ud.workers.dev"}}}
+  - {"name":"30","type":"vless","server":"www.iakeys.com","port":8080,"uuid":"00c91e58-8595-4ba4-a8b5-55280fddf7a7","tls":false,"servername":"worker-black-brook-a503.2qa2n8ud.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-black-brook-a503.2qa2n8ud.workers.dev"}}}
   - {"name":"31","type":"vless","server":"www.ipaddress.my","port":2082,"uuid":"1a47b06f-92d0-45fa-ab91-8b98182cbc17","tls":false,"servername":"worker-young-wind-768c.uj31jyfs.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-young-wind-768c.uj31jyfs.workers.dev"}}}
   - {"name":"32","type":"vless","server":"www.ipaddress.my","port":2082,"uuid":"4f374e75-6259-4157-bffa-b151543490e8","tls":false,"servername":"worker-broad-heart-ebe0.qmecxwdg.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-broad-heart-ebe0.qmecxwdg.workers.dev"}}}
-  - {"name":"33","type":"vless","server":"www.iplocation.net","port":8080,"uuid":"f630f1ed-9254-475e-a54c-bfc0534da8ed","tls":false,"servername":"worker-fragrant-silence-af52.u9ez6x7v.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-fragrant-silence-af52.u9ez6x7v.workers.dev"}}}
-  - {"name":"34","type":"vless","server":"japan.com","port":8080,"uuid":"a25fadfd-58b9-4d72-9ff9-f5e2e6905aac","tls":false,"servername":"worker-fancy-haze-6e3a.wl09yl3j.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-fancy-haze-6e3a.wl09yl3j.workers.dev"}}}
+  - {"name":"33","type":"vless","server":"www.glassdoor.com","port":8080,"uuid":"f630f1ed-9254-475e-a54c-bfc0534da8ed","tls":false,"servername":"worker-fragrant-silence-af52.u9ez6x7v.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-fragrant-silence-af52.u9ez6x7v.workers.dev"}}}
+  - {"name":"34","type":"vless","server":"www.visa.com.sg","port":8080,"uuid":"a25fadfd-58b9-4d72-9ff9-f5e2e6905aac","tls":false,"servername":"worker-fancy-haze-6e3a.wl09yl3j.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-fancy-haze-6e3a.wl09yl3j.workers.dev"}}}
   - {"name":"35","type":"vless","server":"icook.hk","port":2082,"uuid":"b5553ea2-eec4-48a2-8c85-c9ded8a4d6e8","tls":false,"servername":"worker-delicate-water-7496.ifrvsjmb.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-delicate-water-7496.ifrvsjmb.workers.dev"}}}
-  - {"name":"36","type":"vless","server":"japan.com","port":8080,"uuid":"6076ce94-d354-48bb-8bf4-4b5fdb1bd35a","tls":false,"servername":"worker-tiny-cell-54e1.7iore56z.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-tiny-cell-54e1.7iore56z.workers.dev"}}}
+  - {"name":"36","type":"vless","server":"www.4chan.org","port":8080,"uuid":"6076ce94-d354-48bb-8bf4-4b5fdb1bd35a","tls":false,"servername":"worker-tiny-cell-54e1.7iore56z.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-tiny-cell-54e1.7iore56z.workers.dev"}}}
   - {"name":"37","type":"vless","server":"icook.hk","port":2082,"uuid":"26324148-1293-4713-a50c-dbe23d928244","tls":false,"servername":"worker-icy-night-cd7b.oy6goexm.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-icy-night-cd7b.oy6goexm.workers.dev"}}}
   - {"name":"38","type":"vless","server":"www.udacity.com","port":8080,"uuid":"2ad55b90-770e-4a0a-844d-f69bdd68d857","tls":false,"servername":"worker-gentle-shape-ba99.yg2xolof.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-gentle-shape-ba99.yg2xolof.workers.dev"}}}
   - {"name":"39","type":"vless","server":"time.cloudflare.com","port":8080,"uuid":"7dd8d309-981a-4a13-bead-5e1ee74b6dc1","tls":false,"servername":"worker-wild-waterfall-241a.v72izusv.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-wild-waterfall-241a.v72izusv.workers.dev"}}}
   - {"name":"40","type":"vless","server":"www.shopify.com","port":8080,"uuid":"f64cbbdc-bd77-4bb5-aaca-97974a677c7e","tls":false,"servername":"worker-rough-base-7c50.9xf6nxk8.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-rough-base-7c50.9xf6nxk8.workers.dev"}}}
   - {"name":"41","type":"vless","server":"fbi.gov","port":8080,"uuid":"2290b424-f291-4909-830a-5f34a463e5cc","tls":false,"servername":"worker-falling-snowflake-5530.jepcdcan.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-falling-snowflake-5530.jepcdcan.workers.dev"}}}
   - {"name":"42","type":"vless","server":"www.csgo.com","port":8080,"uuid":"651579f1-0db8-4614-8b1f-2d2e0a81083f","tls":false,"servername":"worker-divine-forest-c971.8cfv9zf7.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-divine-forest-c971.8cfv9zf7.workers.dev"}}}
+  - {"name":"43","type":"vless","server":"www.glassdoor.com","port":2082,"uuid":"07ea4236-1df4-4eaf-a89d-29595d516290","tls":false,"servername":"worker-black-bar-df73.jczdvaj8.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-black-bar-df73.jczdvaj8.workers.dev"}}}
+  - {"name":"44","type":"vless","server":"www.wto.org","port":8080,"uuid":"88502e68-2deb-431e-a211-83a118df7fba","tls":false,"servername":"worker-cool-butterfly-8f98.mz5bvd2w.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-cool-butterfly-8f98.mz5bvd2w.workers.dev"}}}
+  - {"name":"45","type":"vless","server":"www.d-555.com","port":2082,"uuid":"a3c09ee3-9957-47bf-a933-236db48b8833","tls":false,"servername":"worker-silent-lab-cb58.44bqpwx7.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-silent-lab-cb58.44bqpwx7.workers.dev"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -176,6 +179,9 @@ proxy-groups:
       - '40'
       - '41'
       - '42'
+      - '43'
+      - '44'
+      - '45'
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -224,6 +230,9 @@ proxy-groups:
       - '40'
       - '41'
       - '42'
+      - '43'
+      - '44'
+      - '45'
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -272,6 +281,9 @@ proxy-groups:
       - '40'
       - '41'
       - '42'
+      - '43'
+      - '44'
+      - '45'
   - name: 📲 电报信息
     type: select
     proxies:
@@ -319,6 +331,9 @@ proxy-groups:
       - '40'
       - '41'
       - '42'
+      - '43'
+      - '44'
+      - '45'
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -366,6 +381,9 @@ proxy-groups:
       - '40'
       - '41'
       - '42'
+      - '43'
+      - '44'
+      - '45'
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -413,6 +431,9 @@ proxy-groups:
       - '40'
       - '41'
       - '42'
+      - '43'
+      - '44'
+      - '45'
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -477,6 +498,9 @@ proxy-groups:
       - '40'
       - '41'
       - '42'
+      - '43'
+      - '44'
+      - '45'
 
 rules:
 # 本地/局域网地址
